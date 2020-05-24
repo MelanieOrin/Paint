@@ -1,0 +1,205 @@
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.paint{
+    width: 550px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.inRow {
+    display: inline-block;
+}
+
+.text{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.inCenter {
+    text-align: center;
+}
+
+.grayBackground {
+    background-color: lightgray;
+}
+
+.paintWindow{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 3px double gray;
+    background-color: lightsteelblue;
+}
+
+.paintLogo {
+    margin-right: 8px;
+    margin-left: 5px;
+    height: 16px;
+}
+
+.paintOptions{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.optionBtn{
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.optionsSpace{
+    margin-left: 10px;
+    margin-right: 23px;
+}
+
+.canvasContainer{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+    height: 500px;
+}
+
+.myCanvas {
+    cursor: pointer;
+    height: 500px;
+    width: 500px;
+    outline: 1px solid gray;
+    overflow: hidden; 
+}
+
+.canvasSides{
+    width: 23px;
+    height: 502px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.leftSide{
+    float: right;
+}
+
+.rightSide{
+    float: left;
+}
+
+.iconSize{
+    font-size: 20px;
+}
+
+.fas {
+    pointer-events: none;
+}
+
+.shapeSizeRow{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.shapeBtns,
+.sizeBtns {
+    height: 35px;
+    width: 35px;
+    border: 1px inset grey;
+    outline: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.ssSelectedBorder {
+    border: 2px outset grey;
+}
+
+.shapeSizeCat{
+    margin-bottom: 5px;
+}
+
+.ssBtnSpace{
+    margin-left: 5px;
+}
+
+.colorsRow{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.colorSquare {
+    height: 35px;
+    width: 35px;
+    border: 1px inset #505050;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.colorSelectedBorder {
+    border: 1px outset #505050;
+    outline: 2px outset #505050;
+}
+
+.spaceSize{
+    margin-left: 50px;
+}
+
+.red{
+    background-color: #FF0000;
+}
+
+.orange{
+    background-color: #FF7F00;
+}
+
+.yellow{
+    background-color: #FFFF00;
+}
+
+.green{
+    background-color:#00FF00;
+}
+
+.violet{
+    background-color: #8B00FF;
+}
+
+.blue{
+    background-color:#0000FF;
+}
+
+.indigo{
+    background-color: #2E2B5F;
+}
+
+.khaki{
+    background-color: #C3B091;
+}
+
+.brown{
+    background-color: #964B00;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}

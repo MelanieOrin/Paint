@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Paint</title>
+    <link rel="icon" href="./images/paint_favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="./styles/Paint95.css" />
+</head>
+
+<body class="container">
+    <div class="paint">
+        <div class="paintWindow">
+            <div class="inRow text"><i class="fas fa-palette paintLogo"></i>Paint</div>
+        </div>
+        <div class="inCenter grayBackground paintOptions">
+            <div class="inRow"><button class="text optionBtn" id="clearScreen">Clear</button></div>
+            <div class="inRow optionsSpace"><button class="text optionBtn" id="printScreen">Print</button></div>
+        </div>
+        <div class="canvasContainer">
+            <div class="canvasSides leftSide inRow grayBackground"></div>
+            <div class="myCanvas inRow" id="myCanvas"></div>
+            <div class="canvasSides rightSide inRow grayBackground"></div>
+        </div>
+        <div class="grayBackground inCenter shapeSizeRow">
+            <div class="inRow inCenter text">
+                <div class="shapeSizeCat">Shape</div>
+                <div id="shapes">
+                    <div class="inRow"><button class="shapeBtns ssSelectedBorder" id="circle"><i class="fas fa-circle iconSize"></i></button></div>
+                    <div class="inRow ssBtnSpace"><button class="shapeBtns" id="square"><i class="fas fa-square-full iconSize"></i></button></div>
+                </div>
+            </div>
+            <div class="inRow inCenter text spaceSize">
+                <div class="shapeSizeCat">Size</div>
+                <div id="sizes">
+                    <div class="inRow"><button class="sizeBtns" id="thin"><i class="fas fa-paint-brush iconSize"></i></button></div>
+                    <div class="inRow ssBtnSpace"><button class="sizeBtns ssSelectedBorder" id="med"><i class="fas fa-brush iconSize"></i></button></div>
+                    <div class="inRow ssBtnSpace"><button class="sizeBtns" id="thick"><i class="fas fa-paint-roller iconSize"></i></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="grayBackground inCenter colorsRow" id="colors">
+            <div class="inRow colorSquare red" id="red"></div>
+            <div class="inRow colorSquare orange" id="orange"></div>
+            <div class="inRow colorSquare yellow" id="yellow"></div>
+            <div class="inRow colorSquare green" id="green"></div>
+            <div class="inRow colorSquare violet" id="violet"></div>
+            <div class="inRow colorSquare blue" id="blue"></div>
+            <div class="inRow colorSquare indigo" id="indigo"></div>
+            <div class="inRow colorSquare khaki" id="khaki"></div>
+            <div class="inRow colorSquare brown" id="brown"></div>
+            <div class="inRow colorSquare gray" id="gray"></div>
+            <div class="inRow colorSquare black colorSelectedBorder" id="black"></div>
+            <div class="inRow colorSquare white" id="white"></div>
+        </div>
+    </div>
+    <script src="scripts/Paint95.js"></script>
+</body>
+
+</html>
